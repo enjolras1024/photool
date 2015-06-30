@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    cursor: default ;
+}
+img{
+    display:none;
+    margin-top:5px;
+}
+canvas,#info,#pic,#coord{
+    position:absolute;
+}
+
+#info{
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+#pic{
+    bottom:0;
+}
+#coord{
+    bottom: 0;
+    right: 0;
+}

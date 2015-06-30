@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<title>自由变换工具 Touch版</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<canvas></canvas>	
+		<canvas></canvas>	
+		<div id="info">
+			<h4>Free Transform Tool — Created by Enjolras — Powered by three.js and CreateJS</h4>
+			<p>说明：围绕中间浅蓝色的点，红黄紫绿四点用于自由缩放，蓝粉两点控制横纵缩放，橙青两点控制旋转。</p>
+		</div>
+		<div id="pic">
+			<img width="100"/>
+            <input type="file" accept="image/*"/>
+		</div>
+        <span id="coord">(0,0)</span>
+    
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+		<script type="text/javascript" src="lib/easeljs-0.8.0.min.js"></script>
+		<script type="text/javascript" src="lib/three.min.js"></script>
+		<script type="text/javascript" src="lib/stats.min.js"></script>
+        
+        <script type="text/javascript" src="src/app.js"></script>
+	</body>
+</html>
