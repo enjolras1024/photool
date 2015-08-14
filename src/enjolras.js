@@ -1,6 +1,3 @@
-/**
- * Created by Enjolras on 2015/8/14.
- */
 var enjolras = enjolras || { };
 
 enjolras.CtrlFrame=function(bindObject){

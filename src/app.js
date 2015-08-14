@@ -32,14 +32,13 @@ function initScreen(){
     var winH=window.innerHeight;
 
     $(window).on("resize",onResize);
-	
+
 		//$(window).on("mousedown",onMouseDown);
 
  		$("canvas").attr("width",winW).attr("height",winH);
 
-	
 		$("img").on("load",onImgLoaded);
-	
+
 		$("input").on("change", onInputChange);
 	
 }
@@ -48,7 +47,7 @@ function initScene(){
 	
 		var winW=window.innerWidth;
     var winH=window.innerHeight;
-	
+
 		renderer=new THREE.WebGLRenderer({canvas:$('canvas')[0],antialias:true});
     renderer.setClearColor(0xEEEEEE, 1.0);
     renderer.setSize(winW, winH);
@@ -94,7 +93,7 @@ function initScene(){
 
     var mesh=new THREE.Mesh(geometry,material);
     scene.add(mesh);
-	
+
 		picture=mesh;
     threshold=material.uniforms.threshold;
 	
